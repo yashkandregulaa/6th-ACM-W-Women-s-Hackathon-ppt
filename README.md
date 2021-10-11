@@ -1,1 +1,1 @@
-# 6th-ACM-W-Women-Hackathon
+# 6th-ACM-W-National-Hackathon
