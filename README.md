@@ -1,1 +1,1 @@
-# 6th-ACM-W-Women-s-Hackathon-ppt
+# 6th-ACM-W-Women-Hackathon
