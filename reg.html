@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/attach_to_reg.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-head item">
+            <h1>Register here</h1>
+        </div>
+        <div class="the-form item">
+            <form action="reg.php" method="post">
+                <div class="ip-field">
+                    <label for="">Username</label>
+                    <input type="text" name="username" class="ip" value="" required>
+                </div>
+                <div class="ip-field">
+                    <label for="">Phone No</label>
+                    <input type="tel" name="phone" class="ip" value="" required>
+                </div>
+                <div class="ip-field">
+                    <label for="">Email</label>
+                    <input type="email" name="email" class="ip" value="" required>
+                </div>
+                <div class="ip-field">
+                    <label for="">Password</label>
+                    <input type="password" name="password" class="ip" value="" required>
+                </div>
+                <div class="ip-field">
+                    <button name="submit" class="ip submit">Register</button>
+                    <!-- <input type="submit" class="ip submit" > -->
+                </div>
+            </form>
+        </div>
+        <div class="log-in-issues item">
+            <p>Already registered? <a href="login.html">Log In here</a></p>
+        </div>
+    </div>
+    </script>
+    <!-- <script>
+        $(document).ready(function() {
+            $("input[type='radio']").change(function() {
+                if ($(this).val() == "aadhar-no-val") {
+                    $("#aadhar-no").show();
+                    $("#uid").hide();
+                } else if ($(this).val() == "uid-val") {
+                    $("#uid").show();
+                    $("#aadhar-no").hide();
+                } else {
+                    $("#aadhar-no").hide();
+                    $("#uid").hide();
+                }
+            });
+        });
+    </script> -->
+</body>
+
+</html>
